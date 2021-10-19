@@ -1,0 +1,39 @@
+.contents{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+
+article{
+    width: 74%;
+}
+
+
+aside{
+    width: 22%;
+}
+
+.container{
+    display: flex;
+}
+
+.komarigoto{
+    background: #0bd;
+    color:#fff;
+    margin:10px;
+    padding:10px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:10px;
+}
+
+.solution{
+    background: #0bd;
+    color:#fff;
+    margin:10px;
+    padding:10px; 
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:10px;
+}
