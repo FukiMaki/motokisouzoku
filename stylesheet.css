@@ -1,39 +1,205 @@
-.contents{
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 50px;
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color:#333;
+    line-height:1.9;
+    text-align: left;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+.nav-list{
+    list-style-type:none;
+    padding:0;
 }
 
 
-article{
-    width: 74%;
+blockquote, q {
+    quotes:none;
 }
 
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
 
-aside{
-    width: 22%;
+a {
+    text-decoration: none;
+    color:#333333;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
 }
 
 .container{
+    width:75%;
+    margin:0 auto;
+    background-color: white;
+}
+
+header{
+    padding-top:100px;
+}
+
+.header-left h1{
+    font-size:40px;
+    letter-spacing: 8px;
+}
+
+.header-menu{
     display: flex;
 }
 
-.komarigoto{
-    background: #0bd;
-    color:#fff;
-    margin:10px;
-    padding:10px;
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap:10px;
+.header-right{
+    margin-left: auto;
+    padding:25px 30px 0 0;
 }
 
-.solution{
-    background: #0bd;
-    color:#fff;
-    margin:10px;
-    padding:10px; 
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap:10px;
+.nav-list{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 60px;
 }
+
+.nav-list li{
+    font-size: 16px;
+    padding:0 25px;
+    letter-spacing: 3px;
+}
+
+.nav-list li:hover{
+    text-decoration: underline;
+}
+
+.mainimg{
+    width:100%;
+    padding-top: 40px;
+}
+
+.main-logo{
+    font-size:40px;
+    text-align:center;
+    letter-spacing: 6px;
+    font-weight:100;
+    padding:100px 0 60px 0;
+}
+
+.contents{
+    display:flex;
+    justify-content: center;
+}
+
+.about-text{
+    font-size: 20px;
+}
+
+.myphoto{
+    padding-left: 80px;
+}
+
+.skill-content{
+    width:33%;
+    text-align:center;
+}
+
+.skill-content h1{
+    font-size: 25px;
+}
+
+.skill-content i{
+    padding:30px 0 40px 0; 
+}
+
+.赤字{color: red;}
+
+.sub{
+    opacity:0.6;
+}
+
+.problem{
+    width:40%;
+    padding:30px 0px 30px 0px;
+    
+}
+
+.skill-text{
+    text-align:left;
+    width:80%;
+    margin: 0 auto;
+    font-size:16px;
+}
+
